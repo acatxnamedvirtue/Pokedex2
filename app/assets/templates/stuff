@@ -1,0 +1,5 @@
+<% pokes.each(function (pokemon) {%>
+    <option
+      <% if (toy.get('pokemon_id') === pokemon.id) { %>                     selected <% } %>
+      value='<%= pokemon.escape("id") %>'><%= pokemon.escape('name') %></option>
+<% }) %>

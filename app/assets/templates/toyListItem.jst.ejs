@@ -1,0 +1,8 @@
+<li class='toy-list-item' data-toy-id='<%= toy.escape("id")%>' data-pokemon-id='<%= toy.escape("pokemon_id")%>'>
+  <label>Name: </label>
+    <%= toy.escape('name') %><br>
+  <label>Happiness: </label>
+  <%= toy.escape('happiness') %><br>
+  <label>Price: </label>
+  <%= toy.escape('price') %><br>
+</li>
