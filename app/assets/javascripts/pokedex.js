@@ -8,6 +8,8 @@ window.Pokedex = {
     // var $el = $('#pokedex');
     // view = new Pokedex.Views.Pokemon({ el: $el });
     // view.refreshPokemon();
+    router = new Pokedex.Routers.Router();
+    Backbone.history.start();
   }
 };
 
